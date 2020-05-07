@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<head>
+  <title>ESKİŞEHİR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0;background-color:rgb(255, 255, 255);}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  max-height:480px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;
+  padding: 12px 15px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+p.impact {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size:11pt;
+  color:#483D8B;
+}
+
+p1.impact {
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  text-align: right;
+  font-size:12pt;
+  color:black;
+}
+
+h2.impact {
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  color:rgb(21, 8, 105);
+}
+
+h1.impact {
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  text-align: left;
+  font-size:12pt;
+  color:rgb(64, 35, 255);
+}
+
+</style>
+
+<body>
+ 
+<div class="container text-center">
+
+  <div class="row">	
+    <div class="col-sm-8" style="display: flex;justify-content:center;align-items: center;background-color:#87CEEB;height:30px;"></div>
+    <div class="col-sm-2" style="display: flex;justify-content:center;align-items: center;background-color:#87CEEB;height:30px;;">
+	<a href="iletişim.html"><p class="impact"><b>İLETİŞİM</p></a></div>
+    <div class="col-sm-2" style="display: flex;justify-content:center;align-items: center;background-color:#87CEEB;height:30px;">
+  <a href="giriş.html"><p class="impact">GİRİŞ YAP</p></a></div>
+  </div>
+</div>
+</div>
+
+<div class="container text-center">
+
+    <div class="row">	 
+      <div class="col-sm-12" style="display: flex;justify-content:center;align-items: center;height: 300px;">
+        <img src="sehir sayfası/logo.jpg" height="250px" width="750px"></div>
+    </div>
+  </div>
+
+
+<div class="container text-center" style="background-color:#87CEEB">
+
+  <div class="row">
+    <div class="col-sm-2" style="display: flex;justify-content:center;align-items: center;"><a href="sehir.html"><p class="impact">ŞEHİR</p></a></div>
+    <div class="col-sm-2" style="display: flex;justify-content:center;align-items: center;"><a href="miras.html"><p class="impact">MİRAS</p></a></div>
+	<div class="col-sm-2" style="display: flex;justify-content:center;align-items: center;"><a href="yemekler.html"><p class="impact">YEMEKLER</p></a></div>
+    <div class="col-sm-2" style="display: flex;justify-content:center;align-items: center;"><a href="yerler.html"><p class="impact">YERLER</p></a></div>
+	<div class="col-sm-2" style="display: flex;justify-content:center;align-items: center;"><a href="takım.html"><p class="impact">TAKIM</p></a></div>
+    <div class="col-sm-2" style="display: flex;justify-content:center;align-items: center;"><a href="hakkında.html"><p class="impact">HAKKINDA</p></a></p></div>	
+  </div>
+</div>
+
+<br>
+
+<div class="slideshow-container">
+
+  <div class="mySlides">
+    <a href="ek linkler/odunpazarı.html" target="blank"><img src="sehir sayfası/odunpazarı.jpg" style="width:100%;height:350px;"></a>
+    <div class="text"><p>Odunpazarı Evleri</p></div>
+  </div>
+  
+  <div class="mySlides">
+    <a href="ek linkler/porsuk.html" target="blank"><img src="sehir sayfası/porsuk2.jpg" style="width:100%;height:350px"></a>
+    <div class="text"><p>Porsuk Nehri</p></div>
+  </div>
+
+  <div class="mySlides">
+    <a href="ek linkler/sazova.html" target="blank"><img src="sehir sayfası/sazova.jpg" style="width:100%;height:350px"></a>
+    <div class="text"><p>Sazova Parkı</p></div>
+  </div>
+  
+  <div class="mySlides">
+    <a href="ek linkler/doktorlar.html" target="blank"><img src="sehir sayfası/doktorlar.jpg" style="width:100%;height:350px"></a>
+    <div class="text"><p>Doktorlar Caddesi</p></div>
+  </div>
+
+  <div class="mySlides">
+    <a href="ek linkler/hamamyolu.html" target="blank"><img src="sehir sayfası/hamamyolu2.jpg" style="width:100%;height:350px"></a>
+    <div class="text"><p>Hamamyolu Caddesi</p></div>
+  </div>
+
+  <div class="mySlides">
+    <a href="ek linkler/yazılıkaya.html" target="blank"><img src="sehir sayfası/yazılıkaya.jpg" style="width:100%;height:350px"></a>
+    <div class="text"><p>Yazılıkaya ve Frig Vadisi</p></div>
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+<br>
+
+<div class="container" style="background-color:rgb(228, 253, 255);">
+  <div class="row">
+    <div class="col-sm-12">
+        <h2 class="impact">ESKİŞEHİR</h2>
+    </div>
+  </div>
+
+<br>
+
+<div class="row">
+    <div class="col-sm-1"></div>
+
+    <div class="col-sm-6">
+        <p1 class="impact">Eskişehir, Türkiye'nin bir ili ve en kalabalık yirmi beşinci şehridir. 1993 yılında çıkarılan kanunla Büyükşehir Belediyesi olmuştur. Nüfusu 2019 yılı TÜİK istatistiklerine göre 887.475'tir. <br>
+            <br>
+            Ortasından Porsuk Çayı geçen şehir, içerisinde Osmangazi Üniversitesi, Eskişehir Teknik Üniversitesi ve Anadolu Üniversitesi'ni bulundurmaktadır.
+            Met helvası, Nuga helvası, Haşhaşlı çörek, Kalabak suyu, çibörek ve lületaşı ile meşhurdur. Ayrıca balaban kebabı da Eskişehir mutfağında önemli bir yer almaktadır. Türkiye'de Eskişehir ve Sivrihisar dolaylarında yetişen bir çoban köpeği olan akbaş da şehre ait önemli değerlerdendir. <br>
+            <br>
+            Anadolu Üniversitesi ve büyükşehir belediyesi bünyesinde iki adet senfoni orkestrası bulunmaktadır. Ayrıca her yıl düzenlenen Uluslararası Eskişehir Festivali ile şehirde müzik, tiyatro, resim ve sinema dallarında sergiler ve gösteriler yapılmaktadır. <br>
+            <br>
+            Eskişehir günümüze kadar değişik uygarlıklar altında varlığını sürdürmüştür. Üzerinde kurulan medeniyetlerden bazıları Frigya, Bizans, Anadolu Selçukluları ve Osmanlı İmparatorluğu'dur. <br>
+            <br>
+            Eskişehir 2013 yılında Türk Dünyası Kültür Başkenti ve UNESCO Somut Olmayan Kültürel Miras Başkentliği unvanlarını taşımaktadır.
+        </p1>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="sehir sayfası/porsuk.jpg" target="blank">
+          <img src="sehir sayfası/porsuk.jpg" style="width:100%">
+          <div class="caption">
+            <p1 class="impact">Porsuk Nehri</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-1"></div>
+
+  <br><br><br>
+
+<div class="row">
+        <div class="col-sm-1"></div>
+    
+        <div class="col-sm-6">
+        
+        <h2 class="impact">KONUM</h2>
+        <p1 class="impact">
+            İç Anadolu Bölgesi’nin kuzeybatısında 29-32 derece doğu boylamları ile 39-40 derece kuzey enlemleri arasında kalan Eskişehir; Ankara, Afyonkarahisar, Kütahya, Bilecik ve Bolu illeri ile çevrilidir.
+            Kuzeyden Bozdağ ve Sündiken Dağları, güneyden Emirdağ, doğudan Orta Asya Vadisi, batıdan Türkmen Dağı gibi doğal sınırlarla çevrili olan il alanı, yaklaşık 13.653 km2 dir. Bu alanıyla il, Türkiye topraklarının %1.8′ ini kaplamaktadır. İl merkezinin denizden yüksekliği ise 792 m dir.
+        </p1>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="sehir sayfası/harita.jpg" target="blank">
+          <img src="sehir sayfası/harita.jpg" style="width:100%">
+          <div class="caption">
+            <p1 class="impact">Türkiye'deki Konumu</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-sm-1"></div>  
+    <div class="col-sm-6">
+        
+        <h2 class="impact">İKLİM</h2>
+        <p1 class="impact">
+            Şehrin iklimi İç Anadolu Bölgesi tipi Karasal iklim'dir. Kışları soğuk ve kar yağışlı, yazlar sıcak ve yağışsızdır. Yağışlar (dağlık kesimler hariç) az ve kısa sürelidir. Temmuz, Ağustos ve Eylül ayları en az yağışı olan aylardır.
+            Yıllık yağış ortalaması 373,6 mm'dir. Bir yılın 90-100 günü yağışlı geçmektedir. Sıcaklık rejimi karasal niteliktedir. 
+        </p1>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+
+  <br><br><br><br>
+
+  <div class="row">
+    <div class="col-sm-1"></div>  
+    <div class="col-sm-6">
+        
+        <h2 class="impact">BİTKİ ÖRTÜSÜ</h2>
+        <p1 class="impact">
+            İlin dörtte birini çam, meşe, gürgen, ardıç, katran ve köknar ağaçlarının oluşturduğu ormanlar teşkil eder. Orman olmayan arazilerde, su kenarlarında söğüt, ahlat ve kavak ağaçlarına rastlanmaktadır.
+            Orta Anadolu Bölgesinin karakteristik bitki örtüsü içerisinde yer alan Eskişehir, % 26,3’ü ormanlarla kaplıdır. Eskişehir, koru ormanlarının % 78’ü karaçam, % 9’i sarıçam, % 6’ü kızılçamdır. 
+        </p1>
+    </div>
+   
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="sehir sayfası/balıkdamı.jpg" target="blank">
+          <img src="sehir sayfası/balıkdamı.jpg" style="width:100%">
+          <div class="caption">
+            <p1 class="impact">Balıkdamı Sulak Alanı</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-sm-1"></div>  
+    <div class="col-sm-6">
+        
+        <h2 class="impact">DOĞAL YAŞAM</h2>
+        <p1 class="impact">
+            Eskişehir faunası, özellikle kuş türleri açısından zengindir. Balıkdamı Sulak Alanı (Sivrihisar), Doğancı Göleti (Alpu), Emineken Göleti (Çifteler) ve Yörükkırka Göleti (Merkez) göçmen kuşların uğrak yeri olması nedeniyle, kuş gözlemciliği açısından önemli yerlerdir.
+            Balıkdamı, göç döneminde yaklaşık 140 kuş türü barındırmaktadır. Boz kaz, Sakarca, Yeşilbaş, Kılkuyruk; Bıldırcın, Sutavuğu; Gümüşi yağmurcun, Çulluk, Karabaş martı vb. pek çok kuş türüne ev sahipliği yapmaktadır.
+        </p1>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+
+  <br><br><br>
+
+  <div class="row">
+    <div class="col-sm-1"></div>  
+    <div class="col-sm-6">
+        
+        <h2 class="impact">YER ALTI ZENGİNLİKLERİ</h2>
+        <p1 class="impact">
+        <br>
+        <h1 class="impact"><b>Kalabak Suyu</b></h1>
+        Eskişehir ile özdeşleşmiş bir içme suyudur. Atatürk'ün bir seyahati esnasında ikram edilen suyun tadını beğenmeyerek, şehre su araştırma talimatı vermesi üzerine Türkmen Dağı eteklerinden bulunarak 1936 yılında şehre getirilen sudur. 
+        2013 yılında açıklanan Sağlık Bakanlığı'nca yapılan resmi analiz sonuçlarına göre Türkiye'de 115 suyun analiz sonuçlarına göre içilebilir sular arasındaki 10 firmadan 3. su seçilmiştir.
+        <br><br>
+        <h1 class="impact"><b>Lületaşı</b></h1>      
+        Lületaşı'nın Türkiye’de işlenebilir olanı yalnız Eskişehir’de bulunmaktadır. "Beyaz altın", "Deniz köpüğü" ve "Eskişehir taşı" gibi adlandırmalar lületaşının değerini, rengini, çıkış merkezini anlamlı bir biçimde ortaya koymaktadır. 
+        Lületaşı, magnezyum ve silisyum esaslı ana kaya parçalarının yerin muhtelif derinliklerindeki başkalaşım katmanları içinde, hidrotermal etkilerle hidratlaşması sonucunda oluşmuş değerli bir taştır.
+        Arkeolojik çalışmalar, lületaşının yaklaşık beş bin yıl öncesinden bilindiğini ve değişik amaçlarla kullanıldığını göstermiştir. Günümüzde Lületaşı süs eşyası ve özellikle pipo yapımında kullanılmaktadır. 
+        Ayrıca radyasyon emici özelliğinden dolayı uzay gemilerinde izolasyon malzemesi olarak kullanılır.
+        <br><br>
+        <h1 class="impact"><b>Bor madeni</b></h1>  
+        Bölge, bor madeni yönünden de önemli rezervlere sahip olup, Kırka'da bulunan Tinkal madeni, işlenerek %33 oranında borik oksid (B2O3) elde edilmektedir.[ perlit, manyezit, kalsedon, krom, toryum ve torit Eskişehir'de bulunan diğer madenlerdir.
+        <br><br>
+        <h1 class="impact"><b>Termal kaynaklar</b></h1>  
+        Eskişehir, bulunduğu yerleşim yeri itibarıyla sıcak su kaynaklarının tam üzerinde bulunmaktadır. Şehir merkezinde, "Sıcak Sular" olarak isimlendiren bölgede, doğal termal kaynaklar bulunmakta, çok sayıda hamam hizmet vermektedir. 
+        Sıcak sular Porsuk Çayı'nın güney kısmında geniş bir alan içinde bulunmaktadır. Suyun merkezinde 47 °C 'yi bulan sıcaklık bazı alanlarda 35 °C 'ye kadar düşmekte, bazı alanlar ise 55° ye kadar yükselmektedir. Hamamlardaki su hafif demirli ve kükürtlüdür.
+        Bu bölgede çarşı içerisindeki tulumbalardan sıcak su akmakta olup, su bir dönem yakın bölgelerdeki evlere de verilmiştir. Yine il sınırları içerisinde Sakarı Ilıcaları, Hasırca, Kızılinler, Uyuzhamam-Alpu, Alpanos-Seyitgazi, Çardak(Hamamkarahisar)-Günyüzü, Yarıkçı-Mihalıççık bilinen kaplıcalardır.
+        </p1>
+
+   </div>
+        
+   <br><br><br><br><br><br>
+        
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="sehir sayfası/luletaşı.jpg" target="blank">
+              <img src="sehir sayfası/luletaşı.jpg" style="width:100%">
+              <div class="caption">
+                <p1 class="impact">Lületaşından Eserler</p>
+              </div>
+            </a>
+          </div>
+        </div>
+                        
+        <div class="col-md-4">
+          <br><br>
+          <div class="thumbnail">
+            <a href="sehir sayfası/bor.jpg" target="blank" >
+              <img src="sehir sayfası/bor.jpg" style="width:100%">
+              <div class="caption">
+                <p1 class="impact">Bor Madeni</p>
+              </div>
+            </a>
+          </div>
+        </div>                       
+       
+        <div class="col-md-4">
+          <br><br>
+          <div class="thumbnail">
+            <a href="sehir sayfası/hamamyolu.jpg" target="blank">
+              <img src="sehir sayfası/hamamyolu.jpg" style="width:100%">
+              <div class="caption">
+                <p1 class="impact">Hamamyolu Caddesi</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-1"></div>
+        
+  </div>
+ </div>
+
+ 
+
+
+</body>
+</html>
